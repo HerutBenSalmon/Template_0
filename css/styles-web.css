@@ -16,33 +16,35 @@ body{
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     opacity: .7;
-    background-position: 20% 0;
+    background-position: 45% 0px;
 }
 
 .header-text{
-    font-size: 2em;
+    font-size: 2rem;
     margin-right: 10%;
     margin-top: 10%;
     margin-left: 60%;
     text-align: center;
-    font-weight: 300;
+    font-weight: lighter;
+    text-shadow: whitesmoke 1px 0 10px;
     
 }
 
 .top-menu-item{
     color: black;
     align-content: center;
-    margin: 25px;
-    padding: 10px;
-    font-size: medium;
+    margin: 12px;
+    padding: 11px;
+    font-size: 16px;
+    background: whitesmoke;
 }
 
 .menu-container{
-    margin-right:10%;
     display: flex;
+    height: 4vw;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: baseline;
 }
 
@@ -162,7 +164,7 @@ img{
     background:url("/assets/beans.png") #eeefef ;
     background-repeat : no-repeat;
     width: 100vw;
-    height: 50vh;
+    height: 35vh;
     padding: 6.25rem 0;
     display: flex;
     justify-content: end;
@@ -196,11 +198,100 @@ img{
 
 .about .container .content-about p{
     text-align: center;
-    line-height: 1.8;
+    line-height: 2;
     font-size: 1.5rem;
     margin-bottom: 2.5rem;
     max-width: 500px;
     font-weight: lighter;
 }
 
+@media screen and (max-width: 375px) {
+    .top-menu-item{
+        color: black;
+        align-content: center;
+        margin: 12px;
+        padding: 11px;
+        font-size: 10px;
+        background: whitesmoke;
+    }
+
+    .icon-container{
+        position: relative;
+        width: 100vw;
+        height: 110vh;
+        background-image: url("/assets/yellow-bg.png");
+        background-repeat: repeat;
+        box-shadow: inset 0px 9px 19px -9px rgb(176 145 9 / 62%);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .icon-item{
+        margin-top: 25px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        background: transparent;
+        width: 80%;
+    }
+
+    .header-text{
+        font-size: 1.3rem;
+        margin-right: 10%;
+        margin-top: 20%;
+        margin-left: 60%;
+        text-align: center;
+        font-weight: lighter;
+        text-shadow: whitesmoke 1px 0 10px;
+        
+    }
+    .month-spacial .content-container .item{
+        background: #f8f8f8;
+        display: flex;
+        width: 300px;
+        margin: 0;
+        padding-bottom: 20px;
+        box-sizing: inherit;
+    }
+
+    .about {
+        background:url("/assets/beans.png") #eeefef ;
+        background-repeat : no-repeat;
+        width: 100vw;
+        height: 35vh;
+        padding: 6.25rem 0;
+        display: flex;
+        justify-content: end;
+    }
+
+    .about .container .content-about{
+        align-content: center;
+        flex: 0 0 auto;
+    
+    }
+    
+    .about .container .content-about .title{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: lighter;
+        font-size: 1.5em;
+    }
+    
+    .about .container .content-about p{
+        text-align: center;
+        text-shadow: whitesmoke 1px 0 10px;
+        line-height: 1.8;
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+        font-weight: lighter;
+        max-width: 287px;
+    }
+
+  }
 
