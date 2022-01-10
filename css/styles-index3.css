@@ -1,0 +1,65 @@
+.header{
+    background: black;
+    font-family: Ariel;
+    height: 100px;
+    width: 50%;
+}
+
+.white-text {
+    color: white;
+}
+
+.text-shadow{
+    color: white;
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f
+}
+
+.blue-text{
+    color: blue;
+}
+
+div.width-50-procents{
+    width: 50%;
+}
+
+span {
+    color:blueviolet;
+    font-weight: bold;	
+}
+
+li {
+    list-style-type: circle;
+    color: cadetblue;	
+}
+
+li li {
+    list-style-type: disc;
+    color:purple;
+    font-family: calibri;
+}
+
+ul + span {
+    color: red;
+}
+
+ul#first > li{
+    border: 1px solid black;
+}
+
+p ~ h1 {
+    color: pink;
+}
+
+a[href="http://nettuts.com"]{
+    color:greenyellow;
+}
+
+li li:nth-child(2n){
+    font-weight: bold;
+}
+
+li:nth-child(1) {
+    color: khaki;
+    background: lightcoral;
+}

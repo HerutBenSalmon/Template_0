@@ -1,0 +1,206 @@
+body{
+    margin:0;
+    display: relative;
+    overflow-x: hidden;
+
+}
+
+* {
+    font-family: 'Merriweather', serif;
+}
+
+.header-background{
+    width: 100vw;
+    height: 75vh;
+    background-image: url("/assets/hero02.png");
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    opacity: .7;
+    background-position: 20% 0;
+}
+
+.header-text{
+    font-size: 2em;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-left: 60%;
+    text-align: center;
+    font-weight: 300;
+    
+}
+
+.top-menu-item{
+    color: black;
+    align-content: center;
+    margin: 25px;
+    padding: 10px;
+    font-size: medium;
+}
+
+.menu-container{
+    margin-right:10%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: baseline;
+}
+
+a:hover{
+    border: 1px solid black ;
+}
+
+.icon-container{
+    position: relative;
+    width: 100vw;
+    height: 25vh;
+    background-image: url("/assets/yellow-bg.png");
+    background-repeat: repeat;
+    box-shadow: inset 0px 9px 19px -9px rgb(176 145 9 / 62%);
+    display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.icon-item{
+    margin-top: 25px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+    background: transparent;
+    width: 33%;
+}
+
+.icon-title{
+    font-weight: bold;
+}
+
+.icon-text{
+    text-align: center;
+    text-overflow: inherit;
+}
+
+.spacials{
+    padding: 3.125rem 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.month-spacial{
+    height: 100%;
+    max-width: 75vw;
+
+}
+
+.month-spacial .spacial-title{
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+}
+
+.month-spacial .content-container{
+    display: flex;
+	flex-flow: row wrap;
+    padding-bottom: 3.2rem;
+    justify-content: center;
+}
+
+.month-spacial .content-container .item{
+    background: #f8f8f8;
+    display: flex;
+    width: 300px;
+	margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.spacial-image{
+     width: 50%;
+}
+
+img{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    box-sizing: inherit;
+}
+
+.month-spacial .content-container .item .dish-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    text-align: center;
+}
+
+.month-spacial .content-container .item .dish-text h2{
+    font-size: 1rem;
+    position: relative;
+    margin-bottom: .1rem;
+    font-weight: 600;
+}
+
+.month-spacial .content-container .item .dish-text span{
+    box-sizing: inherit;
+    font-weight: 600;
+    text-align: center;
+
+}
+.month-spacial .content-container .item .dish-text p{
+    font-size: .875rem;
+    margin-bottom: 0.4rem;
+}
+
+.about {
+    background:url("/assets/beans.png") #eeefef ;
+    background-repeat : no-repeat;
+    width: 100vw;
+    height: 50vh;
+    padding: 6.25rem 0;
+    display: flex;
+    justify-content: end;
+}
+
+.about .container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    height: 100%;
+    max-width: 300px;
+    margin-right: 20%;
+    justify-content: flex-end;
+
+}
+
+.about .container .content-about{
+    align-content: center;
+    flex: 0 0 auto;
+
+}
+
+.about .container .content-about .title{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+
+.about .container .content-about p{
+    text-align: center;
+    line-height: 1.8;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+    max-width: 500px;
+    font-weight: lighter;
+}
+
+
